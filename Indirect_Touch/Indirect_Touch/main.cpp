@@ -1,3 +1,16 @@
+/*
+INDIRECT TOUCH
+
+Task:
+Create array of pointers and point them to row of new two-dimesional array with numbers.
+By using pointers count sum of rows, and save new information in third array.
+Also, by using pointers, sort rows of array.
+
+Student:
+Vilkovych Svyatoslav
+
+*/
+
 #include "func.h"
 
 void main() {
@@ -8,32 +21,32 @@ void main() {
 	cout << "Input number of column: ";
 	cin >> m;
 
-	int **A = new int *[n]; // Array of pointer
-	int **B = new int *[n];	// two-dimesional array of numbers
+	int **pointersToRows = new int *[n]; // Array of pointer, which will point to row
+	int **dataArray = new int *[n];	// two-dimesional array, which will contain our information
 
 	// Array creating
-	creatingAndInitArray(A, B, n, m);
+	creatingAndInitArray(pointersToRows, dataArray, n, m);
 
 	// output array
 	cout << "Array :\n";
-	arrayOutput(B, n, m);
+	arrayOutput(dataArray, n, m);
 	
-	// suming rows
-	int *C = new int[n];
-	sumRow(A, C, n, m);
+	// Array which sum of rows
+	int *sumOfRows = new int[n];
+	sumRow(pointersToRows, sumOfRows, n, m);
 
 	// sorting array with array of pointer
-	sorting(A,n);
+	sorting(pointersToRows,n);
 
 	// output pointers
 	cout << "Sorted sum of rows by the increasing :\n";
 	for (int i = 0; i < n; ++i )
 	{ 
-		cout << *A[i] << "\n";
+		cout << *pointersToRows[i] << "\n";
 	}
 
 	// clearing memory (ALWAYS DO IT! Did you hear me, man?)
-	delete [] C;
-	delete [] B;
-	delete [] A;
+	delete [] sumOfRows;
+	delete [] dataArray;
+	delete [] pointersToRows;
 }

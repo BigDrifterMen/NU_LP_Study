@@ -1,3 +1,17 @@
+/*
+POWEEEEER OF TWOOOO
+
+Task:
+Create program which will count 2^n for n>>1. (Use array)
+p.s. I also add stack realization.
+
+p.s.s. It stops working on ~4,000. Maybe because of recurtion. :C
+
+p.s.s.s. It worked with much more powers (~20,000), but then *it was shoot in the knee*crossed* I decide "optimize" the code.
+
+*/
+
+
 #include "func.h"
 
 void main()
