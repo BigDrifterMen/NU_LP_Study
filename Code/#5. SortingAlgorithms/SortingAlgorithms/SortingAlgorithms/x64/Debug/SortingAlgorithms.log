@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\svaytoslav\desktop\code\#5. sortingalgorithms\sortingalgorithms\sortingalgorithms\main.cpp(26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Compiling...
+  functions.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "void __cdecl PrintArray<long>(long * const,long)" (??$PrintArray@J@@YAXQEAJJ@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "void __cdecl BSort<long>(long * const,long)" (??$BSort@J@@YAXQEAJJ@Z) referenced in function main
+C:\Users\Svaytoslav\Desktop\Code\#5. SortingAlgorithms\SortingAlgorithms\x64\Debug\SortingAlgorithms.exe : fatal error LNK1120: 2 unresolved externals

@@ -1,0 +1,3 @@
+﻿  main.cpp
+d:\desktop\pg\visual studio\sortingalgorithms\sortingalgorithms\main.cpp(209): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SortingAlgorithms.vcxproj -> D:\Desktop\pg\Visual Studio\SortingAlgorithms\Debug\SortingAlgorithms.exe

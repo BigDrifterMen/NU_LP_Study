@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\svaytoslav\desktop\code\#14. methodvishera\consoleapplication1\consoleapplication1\main.cpp(27): warning C4018: '<': signed/unsigned mismatch
+c:\users\svaytoslav\desktop\code\#14. methodvishera\consoleapplication1\consoleapplication1\main.cpp(26): warning C4101: 'i': unreferenced local variable
+  ConsoleApplication1.vcxproj -> C:\Users\Svaytoslav\Desktop\Code\#14. MethodVishera\ConsoleApplication1\Debug\ConsoleApplication1.exe
